@@ -26,8 +26,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 .map return a new array leaving origin array unmodified any, it automatically iterate through the array and can perform calculations
+Can be used to return all names in an array of students or any other data that needs to be return in a new array
 .reduce returns a single value from an array
+coudl be used to find the average student attendance of the same array or grade ave
 .filter the filter array create a new array that pass a logical operator test.
+could be used to find all the students with a passing grade from same array
 2. Explain the difference between a callback and a higher order function.
 A callback function is a function that is passed into another function, a higher-order function receives a function as an argument
 
